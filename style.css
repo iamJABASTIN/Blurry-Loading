@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.bg{
+    background: url(./images/wallpaperflare.com_wallpaper.jpg) no-repeat center center/cover;
+    position:absolute;
+    top: -30px;
+    left:-30px;
+    width:calc(100vw + 60px);
+    height:calc(100vh + 60px);
+    filter:blur(30px);
+    z-index:-1;
+}
+
+.loading-text{
+    font-size:50px;
+    font-weight: bolder;
+    color: crimson;
+}
